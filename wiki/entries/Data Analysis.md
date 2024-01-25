@@ -1,0 +1,1 @@
+Data Analysis is a way or computer knowledge use in data visualization and representing data in a way that is must understandable 

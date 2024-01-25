@@ -1,0 +1,18 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+    
+{% endblock %}
+
+{% block body %}
+    <!-- edit_entry.html -->
+
+<form method="POST">
+    {% csrf_token %}
+    <label for="content">Content (Markdown):</label><br>
+    <textarea id="content" name="content" rows="10" cols="50">{{ entry.content }}</textarea><br>
+    <button type="submit">Save Changes</button>
+</form>
+
+
+{% endblock %}

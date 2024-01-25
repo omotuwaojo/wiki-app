@@ -1,0 +1,81 @@
+.logo {
+    text-align: center;
+    margin-right: 20px;
+}
+
+img {
+    margin-top: 50px;
+}
+
+a {
+    color: brown;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    float: right;
+}
+
+ul,
+li,
+a {
+    display: inline-block;
+    padding: 5px;
+}
+
+form {
+    margin-top: 50px;
+    text-align: center;
+}
+
+input {
+    margin: 5px;
+}
+
+.text {
+    color: gray;
+    border-radius: 20px;
+    width: 500px;
+    height: 40px
+}
+
+.btn {
+    border: none;
+    color: blue;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+/* advanced search*/
+
+.ads {
+    text-align: left;
+}
+
+.adt {
+    width: 600px;
+    height: 20px;
+}
+
+.adbtn {
+    border: none;
+    color: blue;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    color: white;
+    background-color: blue;
+}
+
+.clr {
+    clear: both;
+}
